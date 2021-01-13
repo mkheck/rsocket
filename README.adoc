@@ -1,0 +1,25 @@
+= Spring Boot Omakase: System Scalability Edition
+
+== Maintainer
+
+* Mark Heckler
+* mailto:mark@thehecklers.com[mark@thehecklers.com]
+* https://twitter.com/mkheck[@mkheck on Twitter]
+
+== Purpose
+
+This meta-repo accompanies my session titled *"Spring Boot Omakase, System Scalability: Turning it up to 11"* and includes all code written within the session and more.
+
+== Notes
+
+The session begins by building a blocking API, migrates to a reactive API using Reactor, then crosses over to full RSocket support. Once in RSocket-land, the application names are no longer really accurate; after the initial RSocket connection is made from "client" to "server", the two effectively become peers. Just a caveat in the interests of full disclosure. :)
+
+For further exploration of this domain and the amazing capabilities of Spring and RSocket, star+watch this repo and follow me on Twitter.
+
+And of course, *_star+watch this repo for updates!_*
+
+== Related repositories
+
+https://github.com/mkheck/rs-server[RSocket server code]
+
+https://github.com/mkheck/rs-client[RSocket client code]
